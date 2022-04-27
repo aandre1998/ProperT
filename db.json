@@ -1,0 +1,157 @@
+{
+  "Users": [
+    {
+      "username": "admintest",
+      "password": "password",
+      "roles": [
+        "admin"
+      ]
+    },
+    {
+      "username": "usertest",
+      "password": "password",
+      "roles": [
+        "user"
+      ]
+    }
+  ],
+  "LIN_List": [
+    {
+      "id": "000000",
+      "LIN": "000000",
+      "LIN_Description": "TENT",
+      "NSN_List": [
+        {
+          "id": "8340015834250",
+          "NSN": "8340015834250",
+          "NSN_Description": "TENT",
+          "SN_List": [
+            {
+              "id": "",
+              "SN": "",
+              "SLOC": "CONNEX 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "70210N",
+      "LIN": "70210N",
+      "LIN_Description": "COMPUTER, MICRO LAP-TOP PORTABLE AC/DC W",
+      "NSN_List": [
+        {
+          "id": "702101B000689",
+          "NSN": "702101B000689",
+          "NSN_Description": "COMPUTER, LAPTOP: LATITUDE E5550 DELL",
+          "SN_List": [
+            {
+              "id": "FX6SW52",
+              "SN": "FX6SW52",
+              "SLOC": "new test"
+            },
+            {
+              "id": "FX9TW52",
+              "SN": "FX9TW52",
+              "SLOC": "company office"
+            }
+          ]
+        },
+        {
+          "id": "702101B000689",
+          "NSN": "702101C949511",
+          "NSN_Description": "COMPUTER, LAPTOP LATITUDE 5590",
+          "SN_List": [
+            {
+              "id": "479FZQ2",
+              "SN": "479FZQ2",
+              "SLOC": "Hand Receipt to Supply"
+            },
+            {
+              "id": "7N9FZQ2",
+              "SN": "7N9FZQ2",
+              "SLOC": "?"
+            },
+            {
+              "id": "HWBFZQ2",
+              "SN": "HWBFZQ2",
+              "SLOC": "Company"
+            }
+          ]
+        },
+        {
+          "id": "702101B000689",
+          "NSN": "702101C956075",
+          "NSN_Description": "COMPUTER, HP, PROBOOK 650 G5",
+          "SN_List": [
+            {
+              "id": "1009444949",
+              "SN": "2TK9420JL5",
+              "SLOC": "Home"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A79381",
+      "LIN": "A79381",
+      "LIN_Description": "ANTENNA GROUP: OE-254()/GRC",
+      "NSN_List": [
+        {
+          "id": "702101B000689",
+          "NSN": "5985010631574",
+          "NSN_Description": "ANT GRP OE-254()/GRC",
+          "SN_List": [
+            {
+              "id": "1009444949",
+              "SN": "1009444949",
+              "SLOC": "CONNEX 2"
+            },
+            {
+              "id": "1009444955",
+              "SN": "1009444955",
+              "SLOC": "CONNEX 2"
+            },
+            {
+              "id": "1009444957",
+              "SN": "1009444957",
+              "SLOC": "CONNEX 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C89480",
+      "LIN": "C89480",
+      "LIN_Description": "CAMO NETS",
+      "NSN_List": [
+        {
+          "id": "512512525",
+          "NSN": "512512525",
+          "NSN_Description": "CAMO NETS 2",
+          "SN_List": []
+        }
+      ]
+    },
+    {
+      "id": "T11111",
+      "LIN": "T11111",
+      "LIN_Description": "TEST SET",
+      "NSN_List": []
+    },
+    {
+      "id": "T11112",
+      "LIN": "T11112",
+      "LIN_Description": "TEST SET 2",
+      "NSN_List": []
+    },
+    {
+      "id": "111111",
+      "LIN": "111111",
+      "LIN_Description": "TEST SET 3",
+      "NSN_List": []
+    }
+  ]
+}

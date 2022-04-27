@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*FROM HERE DOWN, IN ORDER OF PAGE LAYOUT
+----------------------------------------*/
+
+
+/*Unclassified Banner*/
+div#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #648d53;
+  color: #fff;
+  width: 100%;
+}
+
+div#banner-content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+div#app-header {
+  padding-top: 5px;
+  text-align: center;
+}
