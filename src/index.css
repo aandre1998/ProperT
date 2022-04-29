@@ -35,3 +35,38 @@ div#app-header {
   padding-top: 5px;
   text-align: center;
 }
+
+div#app-body {
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+}
+
+/* div#app-adminpropertybook {
+
+} */
+
+.apb-add-button {
+  padding-right: 0px;
+}
+
+.apb-hover-box {
+  transition: box-shadow .3s;
+}
+
+.apb-hover-box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.apb-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+span.app-apb-left {
+  width: 90%;
+}
+
+span.app-apb-right {
+  width: 10%;
+}
+

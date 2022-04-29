@@ -13,12 +13,9 @@ import { Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import axios from './api/axios';
 
-// const ROLES = {
-//   'user': 2001,
-//   'admin': 5150
-// }
-
 function App() {
+  /* The App component is the main component. It is used to create routes to both public and protected components. */
+  
   const [pbItems, setPbItems] = useState([]);
 
   useEffect(() => {
@@ -34,11 +31,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* public routes */}
+        {/* public */}
         <Route path="login" element={<Login />} />
         <Route path="unauthorized" element={<Unauthorized />} />
 
-        {/* protected routes */}
+        {/* protected */}
         <Route element={<RequireAuth allowedRoles={['user','admin']} />}>
           <Route path="/" element={<Home />} />
         </Route>
@@ -57,7 +54,7 @@ function App() {
           <Route path="admindashboard" element={<AdminDashboard />} />
         </Route>
 
-        {/* catch all */}
+        {/* all other routes */}
         <Route path="*" element={<Missing />} />
       </Route>
     </Routes>

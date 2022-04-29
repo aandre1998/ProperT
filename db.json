@@ -46,13 +46,8 @@
           "NSN_Description": "COMPUTER, LAPTOP: LATITUDE E5550 DELL",
           "SN_List": [
             {
-              "id": "FX6SW52",
-              "SN": "FX6SW52",
-              "SLOC": "new test"
-            },
-            {
               "id": "FX9TW52",
-              "SN": "FX9TW52",
+              "SN": "125125521",
               "SLOC": "company office"
             }
           ]
@@ -65,7 +60,7 @@
             {
               "id": "479FZQ2",
               "SN": "479FZQ2",
-              "SLOC": "Hand Receipt to Supply"
+              "SLOC": "New SLOC"
             },
             {
               "id": "7N9FZQ2",
@@ -76,18 +71,6 @@
               "id": "HWBFZQ2",
               "SN": "HWBFZQ2",
               "SLOC": "Company"
-            }
-          ]
-        },
-        {
-          "id": "702101B000689",
-          "NSN": "702101C956075",
-          "NSN_Description": "COMPUTER, HP, PROBOOK 650 G5",
-          "SN_List": [
-            {
-              "id": "1009444949",
-              "SN": "2TK9420JL5",
-              "SLOC": "Home"
             }
           ]
         }
@@ -148,9 +131,15 @@
       "NSN_List": []
     },
     {
-      "id": "111111",
-      "LIN": "111111",
+      "id": "T11113",
+      "LIN": "T11113",
       "LIN_Description": "TEST SET 3",
+      "NSN_List": []
+    },
+    {
+      "id": "T11114",
+      "LIN": "T11114",
+      "LIN_Description": "TEST SET 4",
       "NSN_List": []
     }
   ]

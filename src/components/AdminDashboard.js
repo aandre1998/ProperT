@@ -5,6 +5,7 @@ const AdminDashboard = () => {
         <section>
             <h1>AdminDashboard.js</h1>
 
+            <p>Under construction</p>
         </section>
     )
 }
